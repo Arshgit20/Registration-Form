@@ -1,0 +1,25 @@
+form{
+    
+    border: 10px solid whitesmoke;
+    box-sizing: border-box;
+    padding:20px;
+    margin: 20px;
+    width: 300px;
+    background-color: beige;
+    
+
+}
+
+
+
+#id2{
+    background-color: greenyellow;
+}
+
+body{
+    background-color:skyblue;
+}
+
+body{
+    background-image: url();
+}
