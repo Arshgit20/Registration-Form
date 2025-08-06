@@ -1,25 +1,78 @@
-form{
-    
-    border: 10px solid whitesmoke;
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    padding:20px;
-    margin: 20px;
-    width: 300px;
-    background-color: beige;
-    
-
-}
-
-
-
-#id2{
-    background-color: greenyellow;
-}
-
-body{
-    background-color:skyblue;
-}
-
-body{
-    background-image: url();
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Changed from center to flex-start */
+    padding-top: 60px;        /* Push the form down from the top */
+    min-height: 100vh;
+  }
+  
+  /* Container/Form Styling */
+  form {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label Styling */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px;
+    display: block;
+  }
+  
+  /* Input Field Styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #5ab1ef;
+    box-shadow: 0 0 5px rgba(90, 177, 239, 0.5);
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5ab1ef;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #409ce0;
+  }
+  
